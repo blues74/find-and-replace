@@ -7,7 +7,6 @@ const dedent = require('dedent');
 const {TextBuffer} = require('atom');
 const ResultsPaneView = require('../lib/project/results-pane');
 const etch = require('etch');
-const {beforeEach, it, fit, ffit, fffit, conditionPromise} = require('./async-spec-helpers')
 
 describe('ProjectFindView', () => {
   const {stoppedChangingDelay} = TextBuffer.prototype;
